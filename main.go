@@ -54,6 +54,8 @@ func BusquedaBinaria(n []int, buscando int, a int, b int) (string, int) {
 
 }
 
+//
+
 func BusquedaBinariaARRAYNoOrden(n []int, buscando int, a int, b int) (string, int) {
 	if a < b {
 		return "No se encuentra", -1
